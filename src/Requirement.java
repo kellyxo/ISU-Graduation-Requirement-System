@@ -1,11 +1,11 @@
 import java.util.List;
 
 public class Requirement {
-    private String category;
+    private String title;
     private List<Course> courses;
 
-    public Requirement(String category, List<Course> courses) {
-        this.category = category;
+    public Requirement(String title, List<Course> courses) {
+        this.title = title;
         this.courses = courses;
     }
 
@@ -13,7 +13,7 @@ public class Requirement {
         return courses;
     }
 
-    public String getCategory() {
-        return category;
+    public String getTitle() {
+        return title;
     }
 }
